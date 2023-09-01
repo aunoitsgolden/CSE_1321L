@@ -1,6 +1,10 @@
-import java.util.*;
+import java.text.DecimalFormat;
 
 class Lab3A {
+/*
+    private static final DecimalFormat df = new DecimalFormat("0.00");
+    private static final DecimalFormat df2 = new DecimalFormat("0.000");
+*/  
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
