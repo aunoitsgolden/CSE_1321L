@@ -1,10 +1,11 @@
 import java.text.DecimalFormat;
+import java.util.Scanner;
 
 class Lab3A {
-/*
-    private static final DecimalFormat df = new DecimalFormat("0.00");
-    private static final DecimalFormat df2 = new DecimalFormat("0.000");
-*/  
+
+    private static final DecimalFormat df = new DecimalFormat("0.000");
+    private static final DecimalFormat df2 = new DecimalFormat("0.00");
+  
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -16,10 +17,13 @@ class Lab3A {
         input.close();
 
         // Equations
-        float monthlyRate = (float) Math.round((apr / 12) * 1000)/1000;
-        float minPayment = (float) Math.round(balance * apr / 12) / 100;
+        float monthlyRate = ((apr / 12) * 1000)/1000;
+        String formatMonthly = df.format(monthlyRate);
+        float minPayment = (balance * apr / 12) / 100;
+        String formatMin = df2.format(minPayment);
+
         // Output
-        System.out.println("Monthly percentage rate: "+ monthlyRate);
-        System.out.println("Minimum payment : $"+ minPayment);
+        System.out.println("Monthly percentage rate: "+ formatMonthly);
+        System.out.println("Minimum payment : $"+ formatMin);
     }
 }
