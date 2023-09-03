@@ -1,11 +1,3 @@
-/*
-Class:      CSE 1321L
-Section:    J03
-Term:       Fall 2023
-Instructor: Mourya
-Name:       Rowan Golden
-Lab#:       202
-*/
 public class Lab2B {
 
     public static void main(String[] args) {
