@@ -1,11 +1,3 @@
-/*
-Class:      CSE1321L
-Section:    J03
-Term:       Fall 2023
-Instructor: Mourya
-Name:       Rowan Golden
-Lab#:       202
-*/
 import java.util.Scanner;
 
 public class Assignment2B {
