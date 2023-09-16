@@ -6,19 +6,32 @@
   / ___ \ |_| ||  __/ | | | |_| | (_) | | | |_|
  /_/   \_\__|\__\___|_| |_|\__|_|\___/|_| |_(_)
 
+!! If you are to copy my work, do not use Version 2 in doing so. 
+You will absolutely be flagged for cheating !!
+
+A note:
 In this doc I include Version 1 and a Version 2 of Assignment 3B
-I use a very linear, non-reusable approach to solving the problem
-(because it's easier on the brain)
-If you're looking for a more complex solution, scroll down to where it says "Version 2"
-Thank you!
+Version 1 is linear and has a non-reusable approach to solving the problem.
+
+This is partially because because it's easier on the brain, but also because 
+the Professor is not looking to include arrays in the solution for the problem.
+We have not covered arrays in our material yet, and Version 2 uses arrays to 
+shorten the amount of code you have to right to solve the problem. 
+If you're interested in learning more about arrays, check out Module 5 on the
+Lab page. It's cool stuff!
+
+Also, a reminder to you all that if you have any questions or requests when I 
+post on here, let me know. I want to help you the best I can, so if I need to 
+explain my code throughout the process more, or hop in a call, I will. 
+
+TLDR; Version 1 is linear, Version 2 uses arrays. Don't be afraid to reach out.
+
+Thanks!
 
 (Big letter font used: "Standard" from ASCII Art Generator)
 ----------------------------------------------
- __     __            _               _ 
- \ \   / /__ _ __ ___(_) ___  _ __   / |
-  \ \ / / _ \ '__/ __| |/ _ \| '_ \  | |
-   \ V /  __/ |  \__ \ | (_) | | | | | |
-    \_/ \___|_|  |___/_|\___/|_| |_| |_|
+
+Version 1: 
 */
 import java.util.Scanner;
 
@@ -106,10 +119,4 @@ class Assignment3B {
   }
 }
 
-/*
- __     __            _               ____  
- \ \   / /__ _ __ ___(_) ___  _ __   |___ \ 
-  \ \ / / _ \ '__/ __| |/ _ \| '_ \    __) |
-   \ V /  __/ |  \__ \ | (_) | | | |  / __/ 
-    \_/ \___|_|  |___/_|\___/|_| |_| |_____|
-*/
+// Version 2:
