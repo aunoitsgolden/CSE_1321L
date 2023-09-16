@@ -1,3 +1,25 @@
+/*
+----------------------------------------------
+     _   _   _             _   _             _ 
+    / \ | |_| |_ ___ _ __ | |_(_) ___  _ __ | |
+   / _ \| __| __/ _ \ '_ \| __| |/ _ \| '_ \| |
+  / ___ \ |_| ||  __/ | | | |_| | (_) | | | |_|
+ /_/   \_\__|\__\___|_| |_|\__|_|\___/|_| |_(_)
+
+In this doc I include Version 1 and a Version 2 of Assignment 3B
+I use a very linear, non-reusable approach to solving the problem
+(because it's easier on the brain)
+If you're looking for a more complex solution, scroll down to where it says "Version 2"
+Thank you!
+
+(Big letter font used: "Standard" from ASCII Art Generator)
+----------------------------------------------
+ __     __            _               _ 
+ \ \   / /__ _ __ ___(_) ___  _ __   / |
+  \ \ / / _ \ '__/ __| |/ _ \| '_ \  | |
+   \ V /  __/ |  \__ \ | (_) | | | | | |
+    \_/ \___|_|  |___/_|\___/|_| |_| |_|
+*/
 import java.util.Scanner;
 
 class Assignment3B {
@@ -83,3 +105,11 @@ class Assignment3B {
     }
   }
 }
+
+/*
+ __     __            _               ____  
+ \ \   / /__ _ __ ___(_) ___  _ __   |___ \ 
+  \ \ / / _ \ '__/ __| |/ _ \| '_ \    __) |
+   \ V /  __/ |  \__ \ | (_) | | | |  / __/ 
+    \_/ \___|_|  |___/_|\___/|_| |_| |_____|
+*/
