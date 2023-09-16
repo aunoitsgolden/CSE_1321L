@@ -4,11 +4,11 @@ class Lab5A {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     
-    System.out.print("Do you have a driving permit? (Y/N)? ");
+    System.out.print("Do you have a driving permit (Y/N)? ");
     char permit = input.next().charAt(0);
 
     if (permit == 'Y' || permit == 'y') {
-      System.out.print("Do you have a commercial driving license? (Y/N)? ");
+      System.out.print("Do you have a commercial driving license (Y/N)? ");
       char license = input.next().charAt(0);
       
       if (license == 'Y' || license == 'y') {
