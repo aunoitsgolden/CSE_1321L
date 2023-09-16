@@ -4,33 +4,32 @@ class Lab5C {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
-    System.out.println("Enter x: ");
+    System.out.print("Enter x: ");
     int x = input.nextInt();
-    System.out.println("Enter y: ");
+    System.out.print("Enter y: ");
     int y = input.nextInt();
     input.close();
 
-    String position = "";
     if (x == 0 && y == 0) {
-      position = "origin";
+      System.out.println("This point is the origin.");
     }
     else if (x == 0) {
-      position = "x axis";
+      System.out.println("This point is on the y axis.");
     }
     else if (y == 0) {
-      position = "y axis";
+      System.out.println("This point is on the x axis.");
     }
     else if (x > 0 && y > 0) {
-      position = "first quadrant";
+      System.out.println("This point is in the first quadrant.");
     }
     else if (x < 0 && y > 0) {
-      position = "second quadrant";
+      System.out.println("This point is in the second quadrant.");
     }
     else if (x < 0 && y < 0) {
-      position = "third quadrant";
+      System.out.println("This point is in the third quadrant.");
     }
     else if (x > 0 && y < 0) {
-      position = "fourth quadrant";
+      System.out.println("This point is in the fourth quadrant.");
     }
   }
 }
