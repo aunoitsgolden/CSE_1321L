@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    
+    System.out.print("Enter an integer: ");
+    int integer = input.nextInt();
+    input.close();
+
+    int factor = 0;
+    switch (integer % 2) {
+      case 0:
+        factor = 2;
+        break;
+        
+      default: 
+        switch (integer % 3) {
+          case 0:
+            factor = 3;
+            break;
+
+          default:
+            switch (integer % 5) {
+              case 0:
+                factor = 5;
+                break;
+
+              default: 
+                System.out.print("This number is undetermined");
+            }
+        }
+    }
+
+    switch (factor) {
+      case 0:
+        break;
+
+      default:
+        System.out.print("This number is divisible by "+factor);
+        break;
+    }
+  }
+}
