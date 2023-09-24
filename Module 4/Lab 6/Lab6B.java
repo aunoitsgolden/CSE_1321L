@@ -10,6 +10,10 @@ class Lab6B {
         // Define target value
         System.out.println("Enter a number between 1 and 1000: ");
         int target = input.nextInt();
+        while (target < 1 || target > 1000) {
+            System.out.print("Please enter a valid number: ");
+            target = input.nextInt();
+        }
         input.close();
     
         // Loop for computer to guess target
