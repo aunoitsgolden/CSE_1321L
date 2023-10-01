@@ -10,7 +10,6 @@ class Lab7A {
 
         System.out.println("This is the requested 4x4 box:");
         for (int x = 0; x < size; x++) {
-            System.out.print("*");
             for (int y = 0; y < size; y++) {
                 System.out.print("*");
             }
